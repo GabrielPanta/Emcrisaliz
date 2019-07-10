@@ -1,0 +1,132 @@
+<DOCTYPE html>
+        <html lang="es">
+      
+        <head>
+          <meta charset="utf-8">
+          <title> Emcrisaliz S.R.L</title>
+          <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="css/estilos.css">
+        </head>
+      
+        <body>
+      
+          <!-- NAV -->
+          <header>
+            <nav  >
+              <div class="nav-wrapper grey darken-4">
+                <a href="#!" class="brand-logo flow-text"> Emcrisaliz S.R.L</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="icon icon-menu3"></i></a>
+                <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html"><spam class="icon icon-home"></spam> Inicio </a></li>
+                        <li><a href="servicios.html"><spam class="icon-file-text"></spam> Servicios </a></li>
+                        <li><a href="contacto.html"><spam class="icon icon-phone"></spam> Contacto </a></li>
+                        <li><a href="acerca.html"><spam class="icon icon-user"></spam> Acerca </a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                        <li><a href="index.html"><spam class="icon icon-home"></spam> Inicio </a></li>
+                        <li><a href="acerca.html"><spam class="icon-file-text"></spam> Servicios </a></li>
+                        <li><a href="contacto.html"><spam class="icon icon-phone"></spam> Contacto </a></li>
+                        <li><a href="acerca.html"><spam class="icon icon-user"></spam> Acerca </a></li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+      
+          <!-- SLIDER -->
+          <sections>
+            <div class="fullscreen">
+              <div class="slider">
+                <ul class="slides">
+                  <li>
+                    <img src="images/Contacto.jpg"> <!-- random image -->
+                    <div class="caption left-align">
+                      <h3>EMCRISALIZ S.R.L</h3>
+                      <h5 class="light grey-text text-lighten-3">TECNOLOGÍA INTELIGENTE </h5>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+      
+          <div class="social">
+            <ul>
+              <li><a href="http://www.facebook.com/Emcrisaliz/" target="_blank" class="icon-facebook"></a></li>
+              <li><a href="http://" class="icon-twitter"></a></li>
+              <li><a href="http://" class="icon-google"></a></li>
+              <li><a href="http://" class="icon-pinterest"></a></li>
+              <li><a href="mailto:gabrielpantajimenez@hotmail.com" class="icon-mail"></a></li>
+            </ul>
+          </div>
+      
+          <nav>
+            <div class="nav-wrapper grey darken-4">
+              <a href="#" class="brand-logo center">Contáctame - Cel: 942662173</a>
+            </div>
+          </nav>
+          
+      
+          <div style="position:fixed;z-index:900;bottom:60px;right:14px">
+            <div style="width:100px;height:100px;float:left;overflow:hidden">
+                <a href="https://api.whatsapp.com/send?phone=51969060448&text=Hola,escribo desde su sitio web y me gustaria tener un poco más de informacion sobre sus servicios" target="_blank">
+                  <img src="images/Whastapp.png" class="img-fluid"></a>
+            </div>
+          </div>
+      
+      
+      
+          <!-- contacto -->
+      <div class="container section">
+        <div class="row">
+          <div class="col m12 l6">
+                <h5 class="light grey-text"> Encuentranos en AV Ignacio Merino...</h5>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.533519276593!2d-80.64472448569924!3d-5.178454053711925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904a1aa288cc7bbd%3A0xbb3dce9c7f7e7ea4!2sAv+Ignacio+Merino%2C+Piura+20009!5e0!3m2!1ses-419!2spe!4v1562687593822!5m2!1ses-419!2spe" 
+          width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      </div>
+      </div>
+      
+          <!-- Footer -->
+          <div>
+            <footer class="page-footer teal darken-2">
+              <div class="container">
+                <div class="row">
+                  <div class="col l6 s12">
+                    <h5 class="white-text">Contacto</h5>
+                    <p class="grey-text text-lighten-4">Enviame un email o contactame por las redes sociales</p>
+                    <p class="grey-text text-lighten-4">Issaac Arrunategui Serrano</p>
+                    <p class="grey-text text-lighten-4">Cel:942662173</p>
+                  </div> 
+                  <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Redes Sociales</h5>
+                    <ul>
+                      <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Youtube</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Gmail</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-copyright">
+                <div class="container">
+                  © 2019 Copyright Emcrisaliz  
+                  <a class="grey-text text-lighten-4 right" href="#!">más</a>
+                </div>
+              </div>
+            </footer>
+          </div>
+      
+          <script src="js/jquery.js"></script>
+          <script src="js/materialize.min.js"></script>
+          <script>
+            $(document).ready(function () {
+              $(".button-collapse").sideNav();
+              $('.slider').slider({ full_width: true,indicators:false });
+              $('.modal-trigger').leanModal();
+            });
+          </script>
+        </body>
+      
+        </html>

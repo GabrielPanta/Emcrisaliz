@@ -1,0 +1,135 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Css/main.css">
+    <title> Emcrisaliz S.R.L</title>
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper grey darken-4">
+                <a href="#!" class="brand-logo flow-text"> Emcrisaliz S.R.L</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="icon icon-menu3"></i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">
+                            <spam class="icon icon-home"></spam> Inicio
+                        </a></li>
+                    <li><a href="servicios.html">
+                            <spam class="icon-file-text"></spam> Servicios
+                        </a></li>
+                    <li><a href="contacto.html">
+                            <spam class="icon icon-phone"></spam> Contacto
+                        </a></li>
+                    <li><a href="acerca.html">
+                            <spam class="icon icon-user"></spam> Acerca
+                        </a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index.html">
+                            <spam class="icon icon-home"></spam> Inicio
+                        </a></li>
+                    <li><a href="acerca.html">
+                            <spam class="icon-file-text"></spam> Servicios
+                        </a></li>
+                    <li><a href="contacto.html">
+                            <spam class="icon icon-phone"></spam> Contacto
+                        </a></li>
+                    <li><a href="acerca.html">
+                            <spam class="icon icon-user"></spam> Acerca
+                        </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="social">
+        <ul>
+            <li><a href="http://www.facebook.com/Emcrisaliz/" target="_blank" class="icon-facebook"></a></li>
+            <li><a href="http://" class="icon-twitter"></a></li>
+            <li><a href="http://" class="icon-google"></a></li>
+            <li><a href="http://" class="icon-pinterest"></a></li>
+            <li><a href="mailto:gabrielpantajimenez@hotmail.com" class="icon-mail"></a></li>
+        </ul>
+    </div>
+
+    <div style="position:fixed;z-index:900;bottom:60px;right:14px">
+        <div style="width:100px;height:100px;float:left;overflow:hidden">
+            <a href="https://api.whatsapp.com/send?phone=51969060448&text=Hola,escribo desde su sitio web y me gustaria tener un poco más de informacion sobre sus servicios"
+                target="_blank">
+                <img src="images/Whastapp.png" class="img-fluid"></a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col m12 l6 ">
+                <img class="logo responsive-img" src="images/encrisales.jpg">
+            </div>
+            <div class="col m12 l6 ">
+                <h5 class="light grey-text ">Administración de Redes y Servidores, contamos con consultores asociados...
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <!--Desarrolladores-->
+    <div class="container section">
+        <div class="row">
+
+            <div class="col m12 l12">
+                <div class="col m12 l4">
+                    <div class="card-panel z-depth-4">
+                        <div class="center">
+                            <a href="">
+                                <spam class="icon icon-laptop"></spam> Misión
+                            </a>
+                        </div>
+                        <p class="center">Ser la empresa líder en el mercado brindando soluciones innovadoras capaces de satisfacer íntegramente las necesidades de nuestros clientes, con la excelencia y calidad del servicio.</p>
+
+                    </div>
+                </div>
+
+                <div class="col m12 l4">
+                    <div class="card-panel z-depth-4">
+                        <div class="center">
+                            <a href="">
+                                <spam class="icon icon-laptop"></spam> Visíon
+                            </a>
+                        </div>
+                        <p class="center">Gestionar y brindar con idoneidad Soluciones de Tecnologías de Información, cumpliendo los acuerdos establecidos con nuestros clientes e incrementando el valor del negocio de cada uno de ellos.</p>
+                    </div>
+                </div>
+
+                <div class="col m12 l4">
+                        <div class="card-panel z-depth-4 ">
+                            <div class="center">
+                                <a href="">
+                                    <spam class="icon icon-laptop"></spam> Objetivo
+                                </a>
+                            </div>
+                            <p class="center">Nuestro objetivo es ser una Empresa reconocida y elegida como “socio tecnológico” de sus clientes por la calidad de las propuestas y el estricto cumplimiento de los compromisos asumidos.</p>
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".button-collapse").sideNav();
+            $('.slider').slider({ full_width: true, indicators: false });
+            $('.modal-trigger').leanModal();
+        });
+    </script>
+</body>
+
+</html>
